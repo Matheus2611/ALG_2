@@ -19,11 +19,11 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{E46B7598-8DD8-494A-89D3-3C474E55DB33}</ProjectGuid>
+    <ProjectGuid>{0E800971-3B4D-442C-8180-931BF598CDEC}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>aulaoitododez</RootNamespace>
+    <RootNamespace>aula10do10funções</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
-    <ProjectName>aula0810</ProjectName>
+    <ProjectName>aula1010_funções</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -150,7 +150,7 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="aulaoitododez.cpp" />
+    <ClCompile Include="aula10do10  funções.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>

@@ -38,7 +38,7 @@ int main()
 
 	printf("Digite um numero");
 
-	scanf_s("%f", &b); // imprimir um valor
+	scanf_s("%f", &b); 
 
 	printf("\n voce digitou %f\n", b);
 
