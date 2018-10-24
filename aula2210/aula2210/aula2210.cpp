@@ -55,7 +55,7 @@ void informar(int a)
 
 void exemploswitch()
 {
-	printf("Escolha uma opcao:");
+	printf("\nEscolha uma opcao:\n");
 	printf("1 - a\n2 - b\n3 - c\n4 - d\n4");
 	int op = 0;
 	scanf_s("%i", &op);
