@@ -81,7 +81,7 @@ int main()
 }
 */
 
-/*void Ex20()
+void Ex20()
 {
 	int mat[2][3], i, j;
 
@@ -105,13 +105,37 @@ int main()
 		}
 	}
 }
-*/
 
+void ex27()
+{
+	int valor;
+	printf("Informe o valor da compra:\n");
+	scanf_s("%i", &valor);
+
+}
+
+void ex23()
+{
+	int tempo, velmedia;
+	printf("Informe o tempo gasto na viagem em horas: \n");
+	scanf_s("%i", &tempo);
+	printf("Informe a velocidade media: \n");
+	scanf_s("%i", &velmedia);
+
+	int distancia = tempo * velmedia;
+	int litros = distancia / 12;
+
+	printf("\n%i ", tempo, " Horas\n");
+	printf("\n%i ", velmedia, " Km/h\n");
+	printf("\n%i", litros, " Litros\n");
+	printf("\n%i ", distancia, " Km\n");
+}
 int main()
 {
 
-	Ex19();
-	Ex20();
+	
+	ex23();
+
 	
 
 	system("pause");
