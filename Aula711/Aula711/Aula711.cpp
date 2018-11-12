@@ -136,7 +136,7 @@ int main()
 	
 	ex23();
 
-	
+	ex20();
 
 	system("pause");
 	return 0;
