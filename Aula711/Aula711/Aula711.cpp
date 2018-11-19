@@ -81,7 +81,7 @@ int main()
 }
 */
 
-void Ex20()
+/*void Ex20()
 {
 	int mat[2][3], i, j;
 
@@ -105,16 +105,21 @@ void Ex20()
 		}
 	}
 }
-
-void ex27()
+*/
+void ex26()
 {
-	int valor;
-	printf("Informe o valor da compra:\n");
-	scanf_s("%i", &valor);
+	int idade;
+	printf("Informe sua idade:\n");
+	scanf_s("%i", &idade);
+
+	int dias = idade * 365;
+
+	printf("Sua idade em dias %i", dias);
+
 
 }
 
-void ex23()
+/*void ex23()
 {
 	int tempo, velmedia;
 	printf("Informe o tempo gasto na viagem em horas: \n");
@@ -130,13 +135,40 @@ void ex23()
 	printf("\n%i", litros, " Litros\n");
 	printf("\n%i ", distancia, " Km\n");
 }
+*/
+
+void ex22()
+{
+	int mat[3][3], matrizt[3][3], i, j;
+
+	printf("Informe valores para matriz\n");
+	for (i = 0; i < 3; i++)
+	{
+		for (j = 0; j < 3; j++)
+		{
+			printf("Linha: %i, Coluna: %i : ", i, j);
+			scanf_s("%i", &mat[i][j]);
+		}
+	}
+	for (i = 0; i < 3; i++)
+	{
+		for (j = 0; i < 3; j++)
+		{
+			matrizt[j][i] = mat[i][j];
+			printf("%i", matrizt[j][i]);
+		}
+	}
+}
 int main()
 {
 
-	
-	ex23();
+	//ex26();
 
-	ex20();
+	//ex23();
+
+	//ex20();
+
+	ex22();
 
 	system("pause");
 	return 0;
