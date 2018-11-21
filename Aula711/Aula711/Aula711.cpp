@@ -106,7 +106,7 @@ int main()
 	}
 }
 */
-void ex26()
+/*void ex26()
 {
 	int idade;
 	printf("Informe sua idade:\n");
@@ -118,6 +118,7 @@ void ex26()
 
 
 }
+*/
 
 /*void ex23()
 {
@@ -130,14 +131,15 @@ void ex26()
 	int distancia = tempo * velmedia;
 	int litros = distancia / 12;
 
-	printf("\n%i ", tempo, " Horas\n");
-	printf("\n%i ", velmedia, " Km/h\n");
-	printf("\n%i", litros, " Litros\n");
-	printf("\n%i ", distancia, " Km\n");
+	printf("\nHoras: %i\n", tempo);
+	printf("\nKm/h: %i\n ", velmedia);
+	printf("\n Litros: %i\n", litros);
+	printf("\nKm: %i\n ", distancia);
 }
 */
 
-void ex22()
+
+/*void ex22()
 {
 	int mat[3][3], matrizt[3][3], i, j;
 
@@ -152,13 +154,45 @@ void ex22()
 	}
 	for (i = 0; i < 3; i++)
 	{
-		for (j = 0; i < 3; j++)
+		for (j = 0; j < 3; j++)
 		{
 			matrizt[j][i] = mat[i][j];
 			printf("%i", matrizt[j][i]);
 		}
 	}
 }
+*/
+
+ void ex29()
+{
+	 int x, y, z;
+		 printf("digite um valor inteiro para X: ");
+		 scanf_s("%i", &x);
+		 printf("digite um valor inteiro para Y: ");
+		 scanf_s("%i", &y);
+		 printf("digite um valor inteiro para Z: ");
+		 scanf_s("%i", &z);
+
+		 if (x > y + z || y > x + z || z > x + y)
+		 {
+			 printf("Os valores n formam um triangulo");
+		 }
+		 else if (x == y && y == z)
+		 {
+			 printf("Os valores formam um triangulo equilatero");
+		 }
+		 else if (x == y || y == z || x == z)
+		 {
+			 printf("Os valores formam um triangulo isoceles");
+		 }
+		 else if (x != y && y != z && x != z)
+		 {
+			 printf("Os valores formam um triangulo escaleno");
+		 }
+}
+
+
+
 int main()
 {
 
@@ -168,7 +202,9 @@ int main()
 
 	//ex20();
 
-	ex22();
+	//ex22();
+
+	ex29();
 
 	system("pause");
 	return 0;
