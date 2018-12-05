@@ -24,6 +24,20 @@ float calcsubtracao(float a, float b)
 	return subtracao
 }
 
+float calcmult(float a, float b)
+{
+	float mult;
+	mult = a * b;
+	return mult
+}
+
+float calcdiv(float a, float b)
+{
+	float div;
+	div = a * b;
+	return div
+}
+
 
 int main()
 {
@@ -31,7 +45,7 @@ int main()
 	float a = recebervalores();
 	float b = recebervalores();
 
-	printf("Valor da adição:\t", calcadicao(a, b), "Subtração:\t", calcsubtracao(a, b);
+	printf("Valor da adição:\t", calcadicao(a, b), "\nSubtração:\t", calcsubtracao(a, b));
 	system("pause");
 	return 0;
 }
